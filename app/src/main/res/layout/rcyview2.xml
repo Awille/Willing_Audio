@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/rcy2_img"
+        android:scaleType="centerCrop"
+        android:src="@drawable/b1"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:id="@+id/rcy2_text"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        android:text="华语百手|歌词里那些欲言又止的少女"
+        android:layout_width="115dp"
+        android:layout_height="35dp" />
+
+</LinearLayout>

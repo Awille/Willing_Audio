@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/group1">
+        <item android:id="@+id/sex"
+              android:icon="@drawable/sex"
+              android:title="女"
+            >
+        </item>
+        <item android:id="@+id/nav_name"
+            android:icon="@drawable/sign"
+            app:showAsAction="ifRoom"
+            android:title="个性签名" />
+        <item android:id="@+id/signname"
+            android:title="邹狗蛋"
+            app:showAsAction="ifRoom"/>
+        <item android:id="@+id/favoritesinger"
+            android:icon="@drawable/singer"
+            android:title="喜欢的歌手"
+            app:showAsAction="ifRoom"/>
+        <item android:id="@+id/singername"
+            android:title="薛之谦"
+            app:showAsAction="ifRoom"/>
+        <item android:id="@+id/favoritesong"
+            android:icon="@drawable/music"
+            android:title="喜欢的音乐"
+            app:showAsAction="ifRoom"/>
+        <item android:id="@+id/songname"
+            android:title="丑八怪"
+            app:showAsAction="ifRoom"/>
+        <item android:id="@+id/cancel"
+            android:icon="@drawable/cancel"
+            android:title="注销"
+            />
+        <item android:icon="@drawable/exit"
+            android:title="退出">
+
+        </item>
+    </group>
+
+</menu>
